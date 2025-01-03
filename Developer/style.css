@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+.heads{
+    background-image: url("/images/developer.png");
+    min-height: 100vh;
+    color: white;
+ 
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    
+   
+  
+
+}
+
+    
+.name{
+    font-size: 65px;
+    font-weight: 400;
+  
+}
+.blackbox{
+    background-color: #000;
+    padding: 20px;
+  
+}
+.blackbox h2{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.blackbox h2 span {
+    font-weight: 50px;
+    font-size: 96px;
+}
+.box{
+    display: grid ;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        max-width: 1100px;
+        margin: 50px auto;
+               
+}
+.a:hover{
+    transform: scale(1.05);
+    transition: transform .3s ease;
+}
+.box p{
+    padding: 20px;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+.box h3{
+    padding: 20px;
+}
+.a{
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 10px;
+}
+.a:action{
+    cursor: pointer;
+    
+}
+.aboutme{
+        min-height: 300px;
+      
+       
+
+        display: flex;
+       
+    }
+    .contact{
+        background-color: #515603;
+        min-height: 300px;
+        padding: 32px;
+        color: white;
+    }
+    .about{
+        min-height: 300px;
+        padding: 32px;
+        color: white;
+        background-color: #722300;
+    }
+    .about h2, .contact h2 {
+        font-size: 64px;
+        font-weight: 300;
+    }
+    .last{
+        background-color: black;
+        height: 60px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
